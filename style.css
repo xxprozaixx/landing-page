@@ -123,7 +123,8 @@ a
 
 .inner-dere
 {
-    flex: 1 1 300px;
+    flex: 1 1 500px;
+    margin: auto 50px;
 }
 
 .img-wrapper
