@@ -21,10 +21,11 @@ a
 /* Header */
 .header {
     background-color: rgb(255, 168, 182);
-
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 50px;
+    padding-top: 5px;
   }
   
 .main-nav
@@ -32,7 +33,8 @@ a
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .links > ul
@@ -44,15 +46,34 @@ a
 .introduction
 {
     display: flex;
-    padding: 40px;
     flex-wrap: wrap;
     gap: 15px;
+    
+}
+
+.left-intro > h1
+{
+    text-shadow: 2px 2px #ff0000;
+}
+
+.left-intro > p
+{
+    font-size: 25px;
 }
 
 .left-intro
 {
     flex: 1 1 200px;
     font-size: 16px;
+}
+
+.article-image
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+    border: 10px solid white;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .right-intro
@@ -67,6 +88,7 @@ a
  width: 400px;
  border: 10px solid white;
  border-radius: 30%;
+ box-shadow: 10px 10px 5px #888888;
 }
 
 /* Main-content */
@@ -84,7 +106,7 @@ a
 {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 45px;
 }
 
 .inner-dere
@@ -105,9 +127,10 @@ a
     width: 350px;
     height: 350px;
     border-radius: 15%;
+    box-shadow: 10px 10px 5px #888888;
 }
 
-.inner-dere h4, .inner-dere p
+.inner-dere h4
 {
     text-align: center;
 }
