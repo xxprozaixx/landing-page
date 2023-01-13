@@ -110,3 +110,22 @@ a
 {
     text-align: center;
 }
+
+/* Content-2  */
+.quote-wrapper
+{
+    padding: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.quote-wrapper > p
+{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.quote-wrapper > h5
+{
+    font-size: 30px;
+    text-align: right;
+}
