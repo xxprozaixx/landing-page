@@ -37,6 +37,13 @@ a
     font-size: 20px;
 }
 
+.mainlogo
+{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
 .links > ul
 {
     display: flex;
@@ -65,6 +72,11 @@ a
 {
     flex: 1 1 200px;
     font-size: 16px;
+}
+
+.left-intro .button-8
+{
+    align-self: center;
 }
 
 .article-image
@@ -174,7 +186,9 @@ a
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
+
 
 
 /* CSS */
