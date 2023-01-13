@@ -20,7 +20,8 @@ a
 
 /* Header */
 .header {
-    background: rgb(255, 122, 144);
+    background-color: rgb(255, 168, 182);
+
     color: white;
     display: flex;
     flex-direction: column;
@@ -194,4 +195,13 @@ a
   background-color: #a0c7e4;
   box-shadow: none;
   color: #2c5777;
+}
+
+/* footer */
+.footer
+{
+    padding: 30px;
+    text-align: center;
+    background-color: #ade8ffd0;
+    color: blac;
 }
