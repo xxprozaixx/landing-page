@@ -189,8 +189,17 @@ a
     flex-wrap: wrap;
 }
 
+/* footer */
+.footer
+{
+    padding: 30px;
+    text-align: center;
+    background-color: #ade8ffd0;
+    color: blac;
+}
 
-/* CSS */
+
+/* CSS from other site*/
 .button-8 {
   background-color: #e1ecf4;
   border-radius: 3px;
@@ -231,13 +240,4 @@ a
   background-color: #a0c7e4;
   box-shadow: none;
   color: #2c5777;
-}
-
-/* footer */
-.footer
-{
-    padding: 30px;
-    text-align: center;
-    background-color: #ade8ffd0;
-    color: blac;
 }
